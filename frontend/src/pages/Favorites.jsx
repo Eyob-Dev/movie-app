@@ -1,5 +1,5 @@
 import React from 'react';
-function favorite(){
+function Favorites(){
     return (
         <div className="favorite-empty">
             <h2>No favorite movie yet.</h2>
@@ -8,4 +8,4 @@ function favorite(){
     );
 }
 
-export default favorite;
+export default Favorites;
