@@ -2,6 +2,7 @@ import MovieCard from "../components/MovieCard";
 import { useState } from "react";
 
 function Home() {
+    
     // State to manage the search query
   const [searchQuery, setSearchQuery] = useState("");
 
