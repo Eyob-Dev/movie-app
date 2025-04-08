@@ -28,6 +28,7 @@ function Home() {
           Search
         </button>
       </form>
+      
       <div className="movie-grid">
         {movies.map(
           (movie) =>
