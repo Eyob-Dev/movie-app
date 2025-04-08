@@ -2,7 +2,7 @@ function MovieCard({ movie }) {
   const onFavoriteClick = () => {
     alert("Clicked on favorite button");
   };
-  return;
+  return (
   <div className="movie-card">
     <div className="movie-poster">
       <img src={movie.url} alt={movie.title} />
@@ -16,7 +16,8 @@ function MovieCard({ movie }) {
       <h3>{movie.title}</h3>
       <p>{movie.release_date}</p>
     </div>
-  </div>;
+  </div>
+  );
 }
 
 export default MovieCard;
