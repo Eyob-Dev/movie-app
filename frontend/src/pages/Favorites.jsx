@@ -6,5 +6,4 @@ function favorite(){
             <p>This is the favorites page.</p>
         </div>
     );
-    
 }
