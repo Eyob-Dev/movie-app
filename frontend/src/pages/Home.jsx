@@ -1,5 +1,6 @@
 import MovieCard from "../components/MovieCard";
 import { useState } from "react";
+import "../css/Home.css";
 
 function Home() {
 
@@ -19,8 +20,8 @@ function Home() {
 
   return (
     <div className="home">
-      <form onSubmit={handleSearch}>
-        
+      <form onSubmit={handleSearch} className="search-form">
+
         <input
           type="text"
           placeholder="Search for a movie..."
@@ -31,7 +32,7 @@ function Home() {
           Search
         </button>
       </form>
-      <div className="movie-grid">
+      <div className="movies-grid">
         {movies.map(
           (movie) =>
             movie.title.toLowerCase().startsWith(searchQuery.toLowerCase()) && (

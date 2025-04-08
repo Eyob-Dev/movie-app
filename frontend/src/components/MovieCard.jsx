@@ -1,3 +1,4 @@
+import '../css/MovieCard.css';
 function MovieCard({ movie }) {
   const onFavoriteClick = () => {
     alert("Clicked on favorite button");
@@ -7,7 +8,7 @@ function MovieCard({ movie }) {
     <div className="movie-poster">
       <img src={movie.url} alt={movie.title} />
       <div className="movie-overlay">
-        <button className="favorite-button" onClick={onFavoriteClick}>
+        <button className="favorite-btn" onClick={onFavoriteClick}>
           ♡
         </button>
       </div>
