@@ -7,3 +7,5 @@ function favorite(){
         </div>
     );
 }
+
+export default favorite;
