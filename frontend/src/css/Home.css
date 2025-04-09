@@ -36,21 +36,12 @@
   font-weight: 500;
   transition: background-color 0.2s;
   white-space: nowrap;
+  border: none;
+  cursor: pointer;
 }
 
 .search-button:hover {
   background-color: #f40612;
-}
-
-
-@media (max-width: 639px) {
-  .home {
-    padding: 1rem 0;
-  }
-
-  .search-form {
-    margin-bottom: 1rem;
-  }
 }
 
 .movies-grid {
@@ -60,4 +51,27 @@
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
+}
+
+.loading-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 639px) {
+  .home {
+    padding: 1rem 0;
+  }
+
+  .search-form {
+    margin-bottom: 1rem;
+  }
 }
