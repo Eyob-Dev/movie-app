@@ -8,9 +8,3 @@ A simple movie search app built with **React**. It allows users to search for mo
 
 
 ---
-
-## 🛠️ Built With
-
-## 🙌 Acknowledgements
-
-- Movie data powered by [OMDb API](http://www.omdbapi.com/)
