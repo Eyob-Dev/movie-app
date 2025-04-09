@@ -7,17 +7,7 @@ A simple movie search app built with **React**. It allows users to search for mo
 ##
 
 ### 🏠 Home Page  
-![Home Page](screenshots/home.png)
-
-### 📱 Responsive (Mobile View)  
-![Responsive Design](screenshots/responsive.png)
-
-### ❤️ Favorites Page  
-![Favorites Page](screenshots/favorites.png)
-
-### ⚠️ No Favorites Added  
-![No Favorites](screenshots/no-favorites.png)
-
+![Home 
 ---
 
 ## 🚀 Getting Started
