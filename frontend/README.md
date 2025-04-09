@@ -4,16 +4,7 @@ A simple movie search app built with **React**. It allows users to search for mo
 
 ---
 
-## 🔥 Features
-
-- 🔍 Search for movies using the OMDb API  
-- ❤️ Add or remove favorite movies  
-- 📱 Fully responsive layout  
-- 🌙 Clean, dark-themed UI  
-
----
-
-## 📸 Screenshots
+##
 
 ### 🏠 Home Page  
 ![Home Page](screenshots/home.png)
