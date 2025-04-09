@@ -10,7 +10,7 @@ export const MovieProvider = ({ children }) => {
     const [favorites, setFavorites] = useState([]);
 
     useEffect(() => {
-        // check if exist item in local storage and set it to state
+        // check if exist favorite movie in local storage and set it to state
         const storedFev = localStorage.getItem("favorites");
         if(storedFev) setFavorites(JSON.parse(storedFev));
     }, []);
