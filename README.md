@@ -4,6 +4,7 @@ A simple movie search app built with **React**. It allows users to search for mo
 
 ---
 
+
 ## 🔥 Features
 
 - 🔍 Search for movies using the OMDb API  
