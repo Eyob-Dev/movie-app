@@ -16,16 +16,16 @@ A simple movie search app built with **React**. It allows users to search for mo
 ## 📸 Screenshots
 
 ### 🏠 Home Page  
-![Home Page](screenshots/home.png)
+![Home Page](frontend/screenshots/home.png)
 
 ### 📱 Responsive (Mobile View)  
-![Responsive Design](screenshots/responsive.png)
+![Responsive Design](frontend/screenshots/responsive.png)
 
 ### ❤️ Favorites Page  
-![Favorites Page](screenshots/favorites.png)
+![Favorites Page](frontend/screenshots/favorites.png)
 
 ### ⚠️ No Favorites Added  
-![No Favorites](screenshots/no-favorites.png)
+![No Favorites](frontend/screenshots/no-favorites.png)
 
 ---
 
