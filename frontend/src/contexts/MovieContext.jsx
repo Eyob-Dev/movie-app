@@ -28,13 +28,15 @@ export const MovieProvider = ({ children }) => {
     };
 
     // check if movie in favorite state if it is return true
-    
+
     const isFavorite = (movieId) => {
         return favorites.some((item) => item.id === movieId);
     }
 
+    const values = { favorites, addToFavorites, removeFromFavorites, isFavorite }
+
     return (
-        <MovieContext.Provider value={{ favorites, addToFavorites, removeFromFavorites }}>
+        <MovieContext.Provider value={values}>
             {children}
         </MovieContext.Provider>
     )
