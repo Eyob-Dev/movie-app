@@ -7,9 +7,24 @@ function Home() {
 
     // State to manage the search query
   const [searchQuery, setSearchQuery] = useState("");
+  const [movies, setMovies] = useState([]);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-  const movies = fetchPopularMovies();
-  console.log(movies)
+  useEffect(() => {
+    const loadPopularMovies = async () => {
+      try {
+        const popularMovies = await fetchPopularMovies();
+        setMovies(popularMovies)
+      } catch (error) {
+        console.log(error)
+        setError('Failed to fetch movies');
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadPopularMovies()
+  }, [])
 
   const handleSearch = (event) => {
     event.preventDefault();
