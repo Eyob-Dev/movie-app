@@ -19,6 +19,26 @@ export const MovieProvider = ({ children }) => {
         // set the favorites to local storage when favorites state change
         localStorage.setItem(JSON.stringify(favorites));
     },[favorites])
+
+    const addToFavorites = (movie) => {
+        setFavorites((prev) => [...prev, movie]);
+    };
+    const removeFromFavorites = (movieId) => {
+        setFavorites((prev) => prev.filter((item) => item.id !== movieId));
+    };
+
+    // check if movie in favorite state if it is return true
+    
+    const isFavorite = (movieId) => {
+        return favorites.some((item) => item.id === movieId);
+    }
+
+    return (
+        <MovieContext.Provider value={{ favorites, addToFavorites, removeFromFavorites }}>
+            {children}
+        </MovieContext.Provider>
+    )
+
 }
 
 
