@@ -11,18 +11,6 @@ A simple movie search app built with **React**. It allows users to search for mo
 
 ## 🛠️ Built With
 
-- [React](https://reactjs.org/)  
-- [Vite](https://vitejs.dev/)  
-- [OMDb API](http://www.omdbapi.com/)  
-
----
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
-
----
-
 ## 🙌 Acknowledgements
 
 - Movie data powered by [OMDb API](http://www.omdbapi.com/)
