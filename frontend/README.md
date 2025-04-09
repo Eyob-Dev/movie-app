@@ -6,17 +6,6 @@ A simple movie search app built with **React**. It allows users to search for mo
 
 ##
 
-### 🏠 Home Page  
-![Home 
----
-
-    npm install
-    ```
-
-3. Start the development server:
-    ```bash
-    npm run dev
-    ```
 
 ---
 
